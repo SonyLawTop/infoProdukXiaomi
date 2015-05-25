@@ -1,50 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-
-       scale=1">
+    scale=1">
     <title>Multi Page Example</title>
     <link rel="stylesheet"href="jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript"src="jquery.js"></script>
     <script type="text/javascript"src="jquery.mobile-1.4.5.min.js"></script>
-  </head>
-  <body>
-    <div data-role="page" id="homePage">
-       <div data-role="header" data-position="fixed">
-            <h1>Mi Indonesia</h1>
-            <div data-role="navbar">
-                <ul>
-                    <li><a href="#home" class="ui-btn-active">Beranda</a></li>
-                    <li><a href="#Mi4i">Mi4i</a></li>
-                    <li><a href="#Redmi2">Redmi 2</a></li>
-                    <li><a href="#Redmi1s">Mi Pad</a></li>
-                </ul>
-            </div>
-       </div>
-       <div data-role="content">
-         <p>
-           Xiaomi adalah perusahaan mobile internet yang berdedikasi untuk menciptakan pengalaman pengguna dari segala aspek. Didirikan pada tahun 2010, perusahaan ini dengan cepat telah menjadi salah satu perusahaan teknologi terkemuka di Cina. Perusahaan ini kini bernilai lebih dari 10 miliar USD dan memiliki lebih dari 3000 karyawan.
-         </p>
-         <p>
-           You can also <a href="#aboutPage" data-transition="flip">learn more</a> about Megacorp.
-              
+</head>
+<body>
+<div data-role="page" id="homePage">
+    <div data-role="header" data-position="fixed" data-id="headnav">
 
-         </p>
-       </div>
-       <div data-role="footer" data-position="fixed">
-        <h4>Copyright Megacorp &copy; 2013</h4>
-      </div>
+        <h1>Mi Indonesia</h1>
+
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homePage" class="ui-btn-active ui-state-persist" data-transition="flip">Beranda</a></li>
+                <li><a href="#Mi4i" data-transition="flip">Mi4i</a></li>
+                <li><a href="#Redmi2" data-transition="flip">Redmi 2</a></li>
+                <li><a href="#Mipad" data-transition="flip">Mi Pad</a></li>
+            </ul>
+        </div>
     </div>
-    <div data-role="page" id="aboutPage">
-      <div data-role="header"><h1>About Megacorp</h1></div>
-      <div data-role="content">
+    <div data-role="content">
         <p>
-           This text talks about Megacorp and how interesting it is.
-             Most likely though you want to
-           <a href="#homePage" data-transition="flip">return</a> to the home page.
+            <center><img src="images/miHai.jpg" style="max-width:100%;"></center>
+            Hai.. Mi Fans
+            Ini adalah aplikasi dummy produk katalog Mi Indonesia.
+            Terdapat prdouk Mi terkini pada bar navigasi
         </p>
-      </div>
-      <div data-role="footer" data-position="fixed"><h4>My Footer</h4></div>
+         
     </div>
-  </body>
+
+    <div data-role="footer" data-position="fixed">
+        <h4>SonyLawTop &copy; 2015</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Mi4i">
+    <div data-role="header" data-position="fixed" data-id="headnav">
+        <h1>Mi Indonesia</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homePage" data-transition="flip">Beranda</a></li>
+                <li><a href="#Mi4i" class="ui-btn-active ui-state-persist" data-transition="flip">Mi4i</a></li>
+                <li><a href="#Redmi2" data-transition="flip">Redmi 2</a></li>
+                <li><a href="#Mipad" data-transition="flip">Mi Pad</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <p>
+            <h2>Mi4i</h2>
+            Innovation made compact
+            <br>Rp 2.799.000
+            <center><img src="images/mi4i.jpg" style="max-width:100%"></center>
+            Kesempurnaan dalam sebuah Layar Full HD 5 inci dari Sharp/JDI
+            <center><img src="images/Mi4i_screen.jpg" style="max-width:100%"></center>
+            </br>
+            Performa 64-bitProsesor octa-core Qualcomm® Snapdragon 615 generasi 2
+            <center><img src="images/mi41_performance.png" style="max-width:100%"></center>
+            </br>
+            Kamera Sony 13 MP , f/2.0 Flash two-tone pintar
+            <center><img src="images/mi4i_camera.jpg" style="max-width:100%"></center>
+            <br>
+            4G Dual SIM, Dual Standby
+            <br>Cara terbaik untuk selalu terkoneksi
+            <img src="images/mi4i_dual.png" style="max-width:100%">
+            <br>
+            Pertama di dunia untuk MIUI: Android L
+            <img src="images/mi4i_L.jpg" style="max-width:100%">
+
+        </p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>SonyLawTop &copy; 2015</h4>
+    </div>   
+</div>
+
+<div data-role="page" id="Redmi2">
+    <div data-role="header" data-position="fixed" data-id="headnav">
+        <h1>Mi Indonesia</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homePage" data-transition="flip">Beranda</a></li>
+                <li><a href="#Mi4i" data-transition="flip">Mi4i</a></li>
+                <li><a href="#Redmi2" class="ui-btn-active ui-state-persist" data-transition="flip">Redmi 2</a></li>
+                <li><a href="#Mipad" data-transition="flip">Mi Pad</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <p>
+            <h2>Redmi 2</h2>
+            Snapdragon 410 64-bit / 4G Dual SIM / Layar 4.7" IPS HD / Kamera 8MP f/2.2
+            <br>Rp 1.599.000
+            <center><img src="images/redmi2.png" style="max-width:100%"></center>
+            64-bit lho! Snapdragon 410 quad-core 1.2 GHz
+            <center><img src="images/redmi2_performance.png" style="max-width:100%"></center>
+            </br>
+            Layar IPS Sharp/AUO 4.7" fully laminated
+            <center><img src="images/redmi2_screen.png" style="max-width:100%"></center>
+            </br>
+            Kamera belakang 8MP BSI Lensa 5 elemen
+            <center><img src="images/redmi2_camera.png" style="max-width:100%"></center>
+            <br>
+            Di dalamnya lebih asik lagi - MIUI 6
+            <img src="images/MIUI-6.jpg" style="max-width:100%">
+
+        </p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>SonyLawTop &copy; 2015</h4>
+    </div>   
+</div>
+
+<div data-role="page" id="Mipad">
+    <div data-role="header" data-position="fixed" data-id="headnav">
+        <h1>Mi Indonesia</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homePage" data-transition="flip">Beranda</a></li>
+                <li><a href="#Mi4i" data-transition="flip">Mi4i</a></li>
+                <li><a href="#Redmi2" data-transition="flip">Redmi 2</a></li>
+                <li><a href="#Mipad" class="ui-btn-active ui-state-persist" data-transition="flip">Mi Pad</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <p>
+            <h2>Mi Pad</h2>
+            Semua yang kamu suka dari MIUI, sekarang dalam bentuk tablet
+            <br>Rp 2.999.000
+            <center><img src="images/mipad.png" style="max-width:100%"></center>
+            <br>Layar Sharp/AUO IPS 7,9 inci 326 PPI dengan aspek rasio 4:3 dilengkapi Gorilla Glass 3 dari Corning
+            <center><img src="images/mipad_screen.png" style="max-width:100%"></center>
+            </br>
+            GPU dengan 192 core sekelas super-komputer
+            <center><img src="images/mipad_performance.png" style="max-width:100%">
+            <img src="images/mipad_performace2.png" style="max-width:100%">
+            </center>
+
+            
+            <br>
+            MIUI di layar besar 
+            <br>Pengalaman Android favorit kamu sekarang ada di Mi Pad
+            <img src="images/mipad_miui.png" style="max-width:100%">
+
+        </p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>SonyLawTop &copy; 2015</h4>
+    </div>   
+</div>
+
+</body>
 </html>
